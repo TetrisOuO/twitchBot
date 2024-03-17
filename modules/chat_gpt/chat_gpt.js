@@ -1,4 +1,4 @@
-const { chat_gpt_api_key } = require("../config");
+const { chat_gpt_api_key } = require("../../../config");
 const fetch = require("node-fetch");
 
 async function callChatGPT(message) {
